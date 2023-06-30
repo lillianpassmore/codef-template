@@ -13,7 +13,7 @@ const date = new Date(content.date);
 
 <BaseLayout title={title} description={description}>
   <h1
-    class="text-3xl md:text-5xl 2xl:text-6xl mb-[0.8em] font-extrabold mx-auto w-fit"
+    class="text-3xl md:text-5xl 2xl:text-6xl mb-[0.8em] font-semibold mx-auto w-fit text-white"
   >
     {title}
   </h1>
@@ -34,7 +34,7 @@ const date = new Date(content.date);
     <div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="h-6 w-6 inline"
+        class="h-6 w-6 inline text-white"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -45,7 +45,7 @@ const date = new Date(content.date);
           stroke-linejoin="round"
           d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
       </svg>
-      <time datetime={date.toISOString()}
+      <time class="text-white" datetime={date.toISOString()}
         >{
           date.toLocaleDateString("en-uk", {
             day: "numeric",
@@ -57,7 +57,9 @@ const date = new Date(content.date);
     </div>
   </div>
 
-  <div class="prose md:prose-lg 2xl:prose-xl px-4 mx-auto prose-pre:font-mono">
+  <div
+    class="prose md:prose-lg 2xl:prose-xl px-4 mx-auto prose-pre:font-mono text-white"
+  >
     <slot />
   </div>
 </BaseLayout>

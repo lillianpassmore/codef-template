@@ -2,11 +2,11 @@
 layout: "@layouts/ArticleLayout.astro"
 title: Looking to the future of Abenomics
 date: 29 June 2023
-image: /images/my-third-article/cardimage.jpg
+image: https://s.abcnews.com/images/International/abe-speech-rt-rc-220708_1657288667496_hpMain_2_16x9_1600.jpg
 ---
 
 <p class="text-white">
-On July 8, news of the assassination of Shinzo Abe, Japan’s longest serving prime minister, shocked the world. Along with the life of its architect, the decade-long economic strategy, Abenomics, and its influence came to an end. 
+<span class="text-xl">On July 8, </span> news of the assassination of Shinzo Abe, Japan’s longest serving prime minister, shocked the world. Along with the life of its architect, the decade-long economic strategy, Abenomics, and its influence came to an end. 
 </p>
 <p class="text-white">
 Abenomics was borne out of Shinzo Abe’s resolve to revive Japan’s economy in light of more than two decades of economic stagnation following the collapse of an asset bubble in the early 1990s. This economic stagnation was a result of low economic growth, disinflation (low inflation rates), and even deflation (falling price levels). Exacerbating its poor economic performance was Japan’s demographic constraints as she faced a labour shortage due in part to its aging and falling population. Thus, Abe’s multipronged approach consisted of three “arrows”: fiscal expansion, monetary easing and structural reforms, aimed at stimulating spending and investment to promote economic growth and to push up prices. 
